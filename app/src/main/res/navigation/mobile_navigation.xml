@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="br.edu.infnet.androidinterfacedevelopmentat.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="br.edu.infnet.androidinterfacedevelopmentat.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="br.edu.infnet.androidinterfacedevelopmentat.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/professionalExperience"
+        android:name="br.edu.infnet.androidinterfacedevelopmentat.ProfessionalExperience"
+        android:label="fragment_professional_experience"
+        tools:layout="@layout/fragment_professional_experience" />
+    <fragment
+        android:id="@+id/courses"
+        android:name="br.edu.infnet.androidinterfacedevelopmentat.Courses"
+        android:label="fragment_courses"
+        tools:layout="@layout/fragment_courses" />
+    <fragment
+        android:id="@+id/publications"
+        android:name="br.edu.infnet.androidinterfacedevelopmentat.Publications"
+        android:label="fragment_publications"
+        tools:layout="@layout/fragment_publications" />
+</navigation>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">AndroidInterfaceDevelopmentAT</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Personal Information</string>
+    <string name="menu_gallery">Formation</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="professional_experience">Professional Experience</string>
+    <string name="courses">Courses</string>
+    <string name="publications">Publications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Courses -->
+    <string name="col1">Course</string>
+    <string name="col2">Level</string>
+    <string name="row1CourseName">Java</string>
+    <string name="row1Level">Medium</string>
+    <string name="row2CourseName">Python</string>
+    <string name="row2Level">Advanced</string>
+    <string name="row3CourseName">JavaScript</string>
+    <string name="row3Level">Medium</string>
+    <string name="row4CourseName">Kotlin</string>
+    <string name="row4Level">Beginner</string>
+
+    <!-- Professional Experience -->
+    <string name="column1">Area</string>
+    <string name="column2">Experience</string>
+    <string name="row1Area">Backend Dev.</string>
+    <string name="row1Experience">2 Years</string>
+    <string name="row2Area">Tech Lead</string>
+    <string name="row2Experience">6 Months</string>
+    <string name="row3Area">Full Stack</string>
+    <string name="row3Experience">1 Year</string>
+
+    <!-- Publications -->
+    <string name="c1">Title</string>
+    <string name="c2">Date</string>
+    <string name="row1Title">Blockchain Review</string>
+    <string name="row1Date">10/06/2022</string>
+    <string name="row2Title">Git Tutorial</string>
+    <string name="row2Date">22/02/2022</string>
+
+</resources>
